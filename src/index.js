@@ -1,3 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // your code here
+ const evnt=document.querySelector("input");
+ if(evnt==="submit"){
+  console.log(evnt.preventDefault);
+ }
 });
